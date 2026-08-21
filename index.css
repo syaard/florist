@@ -1,0 +1,199 @@
+body{
+	background-color: #fff;
+}
+
+nav{
+	position: relative;
+	line-height: 30px;
+	margin-top: 50px;
+	background: white;
+}
+
+nav ul{
+	list-style: none;
+	margin-top: 10px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: black;
+	float: left;
+	display: block;
+	width: 180px;
+	text-align: center;
+	font-family: 'Karla', sans-serif;
+	background-color: white;
+}
+
+nav ul li a:hover{
+	color: #E77A63 ;
+	background-color: #7B7776;
+	text-align: center;
+	text-decoration: none;
+}
+
+nav ul li:hover ul{
+	display: inline-block;
+	margin-left: -220px;
+	background: transparent;
+}
+
+.dropdown{
+	display: none;
+	position: absolute;
+	top: 120px;
+}
+
+.dropdown a{
+	text-align: left;
+}
+
+img{
+	margin-top: 10px;
+}
+
+.judul{
+	font-family: Decorate Demo;
+	font-size: 20px;
+}
+
+.carousel-item{
+	height: 450px;
+	margin-top: 80px;
+}
+
+.carousel-item img{
+	margin-top: 10px;
+}
+
+.carousel-item .display-4{
+	margin-top: -100px;
+	text-align: center;
+	font-size: 40px;
+	margin-left: -100px;
+}
+
+.carousel-item .lead{
+	text-align: center;
+	font-size: 18px;
+	margin-left: -100px;
+}
+
+.carousel-item .text{
+	color: #727272;
+	font-family: Decorate Demo;
+	margin-right: 400px;
+	font-size: 60px;
+}
+
+iframe{
+	margin-left: 50px;
+}
+
+.teks{
+	float: right;
+	margin-right: : 60px;
+	margin-top: 10px;
+}
+
+.col-md-4{
+	height: 400px;
+	width: 100px;
+	font-family: 'Merriweather', serif;
+	background-size: 70%;
+	text-align: center;
+	background-repeat: no-repeat;
+	padding: 10px;
+}
+
+.col-md-4 img{
+	height: 250px;
+}
+
+.teks2{
+	text-align: center;
+	font-size: 14px;
+	margin-top: 10px;
+}
+
+.truk{
+	height: 150px;
+	text-align: center;
+	background-color: #C8BCB9;
+}
+
+.truk img{
+	height: 40px;
+	width: 40px;
+	margin-top: 25px;
+}
+
+.desc{
+	font-size: 22px;
+	font-family: 'Fraunces', serif;
+	margin-top: 120px;
+}
+
+.teks h1{
+	font-family: 'Merriweather', serif;
+}
+
+.home1{
+	position: relative;
+	text-align: center;
+}
+
+.home1 img{
+	position: absolute;
+	left: 90px;
+	transition: opacity 1s ease-in-out;
+}
+
+.home1 .gambar2:hover{
+	 opacity: 0;
+}
+
+.home1 .desc{
+	margin-left: 50px;
+}
+
+.home1 .desc2{
+	margin-left: 25px;
+	font-size: 22px;
+	font-family: 'Fraunces', serif;
+	margin-top: 120px;
+}
+
+.home1 .desc3{
+	margin-left: 10px;
+	font-size: 22px;
+	font-family: 'Fraunces', serif;
+	margin-top: 120px;
+}
+
+.home1 .desc4{
+	margin-left: 15px;
+	font-size: 22px;
+	font-family: 'Fraunces', serif;
+	margin-top: 120px;
+}
+
+.home1 .desc5{
+	margin-left: 15px;
+	font-size: 22px;
+	font-family: 'Fraunces', serif;
+	margin-top: 120px;
+}
+
+.home1 .desc6{
+	margin-left: 25px;
+	font-size: 22px;
+	font-family: 'Fraunces', serif;
+	margin-top: 120px;
+}
+
+.copyright{
+	text-align: center;
+	color: #7B7776;
+	font-family: Times New Roman;
+}

@@ -1,0 +1,89 @@
+body{
+	background-color: #fff;
+}
+
+nav{
+	position: relative;
+	line-height: 30px;
+	margin-top: 50px;
+	background: white;
+}
+
+nav ul{
+	list-style: none;
+	margin-top: 10px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: black;
+	float: left;
+	display: block;
+	width: 180px;
+	text-align: center;
+	font-family: 'Karla', sans-serif;
+	background-color: white;
+}
+
+nav ul li a:hover{
+	color: #E77A63 ;
+	background-color: #7B7776;
+	text-align: center;
+	text-decoration: none;
+}
+
+nav ul li:hover ul{
+	display: inline-block;
+	margin-left: -220px;
+	background: transparent;
+}
+
+.dropdown{
+	display: none;
+	position: absolute;
+	top: 120px;
+}
+
+.dropdown a{
+	text-align: left;
+}
+img{
+	margin-top: 10px;
+}
+
+.judul{
+	font-family: Decorate Demo;
+	font-size: 20px;
+	margin-top: 0px;
+}
+
+.col-md-4{
+	height: 400px;
+	width: 100px;
+	font-family: 'Merriweather', serif;
+	background-size: 70%;
+	text-align: center;
+	background-repeat: no-repeat;
+	padding: 10px;
+}
+
+.col-md-4 img{
+	height: 250px;
+}
+
+.desc{
+	font-size: 20px;
+}
+
+h3{
+	font-family: 'Fraunces', serif;
+}
+
+.payment{
+	margin-top: 180px;
+	font-family: Times New Roman;
+}
+
+.payment img{
+	width: 350px;
+}
